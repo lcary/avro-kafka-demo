@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Person",
+  "fields": [
+    {"name": "username", "type": "string"},
+    {"name": "companyId", "type": ["null", "long"]},
+    {"name": "bio", "type": ["null", "string"]},
+    {"name": "fullTime", "type": ["null", "boolean"]},
+    {"name": "address", "type": ["null", "string"]},
+    {"name": "affiliations", "type": {"type": "array", "items": "string"}}
+  ]
+}

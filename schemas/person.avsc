@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "Person",
+  "fields": [
+    {"name": "username", "type": "string"},
+    {"name": "companyId", "type": ["null", "long"]},
+    {"name": "affiliations", "type": {"type": "array", "items": "string"}}
+  ]
+}
